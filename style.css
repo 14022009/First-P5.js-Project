@@ -1,0 +1,58 @@
+body {
+    background-color: royalblue;
+    color: white;
+    font-family: Tourney;
+}
+
+.heads {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 96%;
+    font-size: 60px;
+    margin-left: 2%;
+}
+
+.heads p {
+    padding-left: 100px;
+}
+
+@media screen and (max-width : 425px) {
+    .heads {
+        font-size: 40px;
+    }
+
+    .take_download_snap_btn {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .heads {
+        font-size: 30px;
+    }
+
+    .take_download_snap_btn {
+        font-size: 10px;
+    }
+}
+
+
+.take_download_snap_btn {
+    background-color: rgb(51, 177, 26);
+    border: 0px;
+    border-radius: 10px;
+    width: auto;
+    font-size: 28px;
+    margin-left: 8px;
+}
+
+a {
+    font-family: Stick !important;
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+
+a:hover {
+    color: gold !important;
+    text-decoration: underline 0px;
+}
